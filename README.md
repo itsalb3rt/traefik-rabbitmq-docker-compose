@@ -1,8 +1,10 @@
 # Docker compose + RabbitMQ + Traefik
 
-**Using RabbitMQ 3.5**
+**Setup**
+- Traefik 2
+- RaabitMQ 3.5
 
-Into `.env` file you have a vars for set your RabbitMQ setup.
+*Into `.env` file you have vars for set your RabbitMQ*
 
 ---
 
