@@ -16,7 +16,12 @@ $ git clone htts://this.repo
 $ docker-compose up
 ```
 
+Now you can go to RabbitMQ web admin, your user and password set on `.env` file:
+
 ```bash
-# Local IP, VirtualBox bridge, etc...
-http://192.168.56.101:5672
+RABBITMQ_USER
+RABBITMQ_PASSWORD
 ```
+http://192.168.56.101:5672
+
+![](./docs/rabbitmq-login.png)
