@@ -9,7 +9,7 @@
 ---
 
 ```bash
-$ git clone htts://this.repo
+$ git clone https://github.com/itsalb3rt/traefik-rabbitmq-docker-compose
 ```
 
 ```bash
