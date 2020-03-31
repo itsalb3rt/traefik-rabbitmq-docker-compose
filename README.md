@@ -22,6 +22,6 @@ Now you can go to RabbitMQ web admin, your user and password set on `.env` file:
 RABBITMQ_USER
 RABBITMQ_PASSWORD
 ```
-http://192.168.56.101:5672
+http://192.168.56.101:15672
 
 ![](./docs/rabbitmq-login.png)
