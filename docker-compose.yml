@@ -1,0 +1,18 @@
+rabbitmq3:
+  image: "rabbitmq:3.5-management"
+  hostname: "rabbitmq3"
+  environment:
+    RABBITMQ_ERLANG_COOKIE: ${RABBITMQ_ERLANG_COOKIE}
+    RABBITMQ_DEFAULT_USER: ${RABBITMQ_USER}
+    RABBITMQ_DEFAULT_PASS: ${RABBITMQ_USER}
+    RABBITMQ_DEFAULT_VHOST: "/"
+  ports:
+    - ${RABBITMQ_ADMIN_EXPOSED_PORT}:15672 # rabbitmqadmin
+    - ${RABBITMQ_STANDARD_TCP_EXPOSED_PORT}:5672 #TCP standard 
+  labels:
+      - traefik.enable=true
+      - traefik.http.routers.rabbitmq3.rule=Host(${APP_HOST})
+  volumes:
+      - ./.docker/rabbitmq/etc/:/etc/rabbitmq/
+      - ./.docker/rabbitmq/data/:/var/lib/rabbitmq/
+      - ./.docker/rabbitmq/logs/:/var/log/rabbitmq/
