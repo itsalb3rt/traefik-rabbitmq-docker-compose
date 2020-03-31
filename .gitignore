@@ -1,5 +1,4 @@
 #Created when run docker-compose up
 /.docker
 /autocluster-0.4.1.ez
-/enabled_plugins
 /rabbitmq.config
