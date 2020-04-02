@@ -2,7 +2,7 @@
 
 **Setup**
 - Traefik 2
-- RaabitMQ 3.5
+- RabbitMQ 3.5
 
 *Into `.env` file you have vars for set your RabbitMQ*
 
