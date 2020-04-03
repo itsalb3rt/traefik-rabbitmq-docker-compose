@@ -25,3 +25,13 @@ RABBITMQ_PASSWORD
 http://192.168.56.101:15672
 
 ![](./docs/rabbitmq-login.png)
+
+---
+
+# UI Test App
+
+Got to https://github.com/itsalb3rt/rabbitmq-reactapp-consumer-test and follow the instructions.
+
+# Backend Test App (Node)
+
+Go to https://github.com/itsalb3rt/rabbitmq-nodeapp-consumer-test and follow the instructions.
