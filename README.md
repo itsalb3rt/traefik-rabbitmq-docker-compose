@@ -26,6 +26,11 @@ http://192.168.56.101:15672
 
 ![](./docs/rabbitmq-login.png)
 
+
+now go to `Exchange` tab and and click on `Add a new exchange` for this example create one `calc_sum` and click on button `Publish message`
+
+![](./docs/create-exchange.png)
+
 ---
 
 # UI Test App
